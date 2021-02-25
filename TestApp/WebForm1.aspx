@@ -46,6 +46,28 @@
 
         <asp:Label ID="Label2" runat="server">ville</asp:Label>
 
+        <br />
+
+        <br />
+
+        <div>
+
+
+
+            <br />
+            <br />
+            <asp:FileUpload ID="FileUpload1" runat="server" />
+            <asp:Button ID="Button5" runat="server" Text="Upload" OnClick="Upload" />
+            <br />
+            <asp:Label ID="Label3" runat="server" Text="Your Image"></asp:Label>
+            <br />
+            <br />
+            <asp:Image ID="Image1" runat="server" Height="200px" Width="200px" />
+
+
+
+        </div>
+
     </form>
 </body>
 </html>
